@@ -1,0 +1,140 @@
+{
+  "table_name": "Old Board Data",
+  "total_rows": 296,
+  "sampled_rows": 296,
+  "columns": {
+    "Date": "datetime64[ns]",
+    "Job Number": "int64",
+    "Customer": "object",
+    "Assembly Number": "object",
+    "Total # Reworked": "float64",
+    "Rework Time": "float64",
+    "Comments:": "object",
+    "Quantity Inspected": "float64",
+    "Quantity Rejected": "float64"
+  },
+  "numeric_columns": {
+    "Job Number": {
+      "count": 296,
+      "mean": 13195.472972972973,
+      "min": 1300.0,
+      "max": 122587.0,
+      "std": 7845.718569872865,
+      "median": 12436.0
+    },
+    "Total # Reworked": {
+      "count": 166,
+      "mean": 2891.10843373494,
+      "min": 0.0,
+      "max": 465366.0,
+      "std": 36004.16991061032,
+      "median": 31.0
+    },
+    "Rework Time": {
+      "count": 292,
+      "mean": 3.1968835616438356,
+      "min": 0.0,
+      "max": 49.15,
+      "std": 6.3645962822285265,
+      "median": 0.675
+    },
+    "Quantity Inspected": {
+      "count": 240,
+      "mean": 208.30833333333334,
+      "min": 0.0,
+      "max": 4241.0,
+      "std": 599.4249160074642,
+      "median": 25.5
+    },
+    "Quantity Rejected": {
+      "count": 236,
+      "mean": 12.970338983050848,
+      "min": 0.0,
+      "max": 194.0,
+      "std": 33.56809373250502,
+      "median": 1.0
+    }
+  },
+  "categorical_columns": {
+    "Date": [
+      {
+        "value": "2002-11-19 00:00:00",
+        "count": 8
+      },
+      {
+        "value": "2003-01-21 00:00:00",
+        "count": 7
+      },
+      {
+        "value": "2002-12-27 00:00:00",
+        "count": 7
+      },
+      {
+        "value": "2003-06-26 00:00:00",
+        "count": 7
+      },
+      {
+        "value": "2003-01-29 00:00:00",
+        "count": 6
+      }
+    ],
+    "Customer": [
+      {
+        "value": "<<NULL>>",
+        "count": 292
+      },
+      {
+        "value": "RL Drake",
+        "count": 3
+      },
+      {
+        "value": "Sport Sensors",
+        "count": 1
+      }
+    ],
+    "Assembly Number": [
+      {
+        "value": "D15683100A",
+        "count": 9
+      },
+      {
+        "value": "8100922",
+        "count": 8
+      },
+      {
+        "value": "15942800A",
+        "count": 7
+      },
+      {
+        "value": "STUFF90-2503",
+        "count": 6
+      },
+      {
+        "value": "D15526100A",
+        "count": 6
+      }
+    ],
+    "Comments:": [
+      {
+        "value": "<<NULL>>",
+        "count": 272
+      },
+      {
+        "value": "Part Shortage",
+        "count": 5
+      },
+      {
+        "value": "Parts Shortage",
+        "count": 1
+      },
+      {
+        "value": "Did not run Deviation program",
+        "count": 1
+      },
+      {
+        "value": "Built line #1 then line #3.",
+        "count": 1
+      }
+    ]
+  }
+}

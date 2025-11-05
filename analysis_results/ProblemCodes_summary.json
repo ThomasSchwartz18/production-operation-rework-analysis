@@ -1,0 +1,43 @@
+{
+  "table_name": "ProblemCodes",
+  "total_rows": 22,
+  "sampled_rows": 22,
+  "columns": {
+    "CodeID": "int64",
+    "Description": "object"
+  },
+  "numeric_columns": {
+    "CodeID": {
+      "count": 22,
+      "mean": 11.5,
+      "min": 1.0,
+      "max": 22.0,
+      "std": 6.34428877022476,
+      "median": 11.5
+    }
+  },
+  "categorical_columns": {
+    "Description": [
+      {
+        "value": "MISSING COMPONENT",
+        "count": 1
+      },
+      {
+        "value": "PART IN WRONG LOCATION",
+        "count": 1
+      },
+      {
+        "value": "WRONG COMPONENT ",
+        "count": 1
+      },
+      {
+        "value": "DAMAGED COMPONENT",
+        "count": 1
+      },
+      {
+        "value": "PARTS NOT SEATED",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_name": "Cause Locations",
+  "total_rows": 13,
+  "sampled_rows": 13,
+  "columns": {
+    "ID": "int64",
+    "Description": "object"
+  },
+  "numeric_columns": {
+    "ID": {
+      "count": 13,
+      "mean": 7.0,
+      "min": 1.0,
+      "max": 13.0,
+      "std": 3.7416573867739413,
+      "median": 7.0
+    }
+  },
+  "categorical_columns": {
+    "Description": [
+      {
+        "value": "SMT",
+        "count": 1
+      },
+      {
+        "value": "HA",
+        "count": 1
+      },
+      {
+        "value": "ERSA",
+        "count": 1
+      },
+      {
+        "value": "WAVE",
+        "count": 1
+      },
+      {
+        "value": "SOLDER",
+        "count": 1
+      }
+    ]
+  }
+}

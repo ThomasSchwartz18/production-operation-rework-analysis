@@ -1,0 +1,33 @@
+{
+  "table_name": "Customer",
+  "total_rows": 184,
+  "sampled_rows": 184,
+  "columns": {
+    "Customer": "object"
+  },
+  "numeric_columns": {},
+  "categorical_columns": {
+    "Customer": [
+      {
+        "value": "500-501LF",
+        "count": 1
+      },
+      {
+        "value": "ACCENT ENGINEERING",
+        "count": 1
+      },
+      {
+        "value": "Actia",
+        "count": 1
+      },
+      {
+        "value": "ACV Auctions",
+        "count": 1
+      },
+      {
+        "value": "ADB Safegate",
+        "count": 1
+      }
+    ]
+  }
+}

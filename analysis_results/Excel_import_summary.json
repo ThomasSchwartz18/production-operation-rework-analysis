@@ -1,0 +1,124 @@
+{
+  "table_name": "Excel import",
+  "total_rows": 426,
+  "sampled_rows": 426,
+  "columns": {
+    "Job": "float64",
+    "Date1": "datetime64[ns]",
+    "Assy": "object",
+    "Ref Desg": "object",
+    "Prob Code": "float64",
+    "Serial Number": "object",
+    "From Location": "object"
+  },
+  "numeric_columns": {
+    "Job": {
+      "count": 425,
+      "mean": 31969.529411764706,
+      "min": 31864.0,
+      "max": 31994.0,
+      "std": 50.81699304373411,
+      "median": 31994.0
+    },
+    "Prob Code": {
+      "count": 425,
+      "mean": 9.16470588235294,
+      "min": 1.0,
+      "max": 30.0,
+      "std": 9.398431732536118,
+      "median": 6.0
+    }
+  },
+  "categorical_columns": {
+    "Date1": [
+      {
+        "value": "2014-06-19 00:00:00",
+        "count": 71
+      },
+      {
+        "value": "2014-07-07 00:00:00",
+        "count": 56
+      },
+      {
+        "value": "2014-06-23 00:00:00",
+        "count": 48
+      },
+      {
+        "value": "2014-06-24 00:00:00",
+        "count": 44
+      },
+      {
+        "value": "2014-06-11 00:00:00",
+        "count": 43
+      }
+    ],
+    "Assy": [
+      {
+        "value": "3402-101LF",
+        "count": 425
+      },
+      {
+        "value": "<<NULL>>",
+        "count": 1
+      }
+    ],
+    "Ref Desg": [
+      {
+        "value": "C174",
+        "count": 42
+      },
+      {
+        "value": "K1",
+        "count": 34
+      },
+      {
+        "value": "CN31",
+        "count": 22
+      },
+      {
+        "value": "CN7",
+        "count": 17
+      },
+      {
+        "value": "CN3",
+        "count": 11
+      }
+    ],
+    "Serial Number": [
+      {
+        "value": "18140484",
+        "count": 14
+      },
+      {
+        "value": "18140337",
+        "count": 12
+      },
+      {
+        "value": "18140097",
+        "count": 11
+      },
+      {
+        "value": "18140495",
+        "count": 9
+      },
+      {
+        "value": "18140527",
+        "count": 8
+      }
+    ],
+    "From Location": [
+      {
+        "value": "ERSA",
+        "count": 271
+      },
+      {
+        "value": "SMT",
+        "count": 154
+      },
+      {
+        "value": "<<NULL>>",
+        "count": 1
+      }
+    ]
+  }
+}

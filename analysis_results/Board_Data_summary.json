@@ -1,0 +1,212 @@
+{
+  "table_name": "Board Data",
+  "total_rows": 18056,
+  "sampled_rows": 18056,
+  "columns": {
+    "Date": "datetime64[ns]",
+    "Job Number": "int64",
+    "Customer": "object",
+    "Assembly Number": "object",
+    "From Location": "object",
+    "Total # Reworked": "float64",
+    "Rework Time": "float64",
+    "Comments:": "object",
+    "Quantity Inspected": "float64",
+    "Quantity Rejected": "float64",
+    "Quantity Accepted": "object",
+    "Serial Number": "object",
+    "Shift": "object"
+  },
+  "numeric_columns": {
+    "Job Number": {
+      "count": 18056,
+      "mean": 40503.396045635796,
+      "min": 23.0,
+      "max": 48416666.0,
+      "std": 466409.5786184601,
+      "median": 36034.0
+    },
+    "Total # Reworked": {
+      "count": 13270,
+      "mean": 64.8311981914092,
+      "min": 0.0,
+      "max": 34277.0,
+      "std": 424.090097731031,
+      "median": 16.0
+    },
+    "Rework Time": {
+      "count": 18026,
+      "mean": 1.6577249528458893,
+      "min": 0.0,
+      "max": 214.5,
+      "std": 5.081924251664069,
+      "median": 0.33
+    },
+    "Quantity Inspected": {
+      "count": 14664,
+      "mean": 359.9728587015821,
+      "min": 0.0,
+      "max": 14025.0,
+      "std": 777.9194939286567,
+      "median": 100.0
+    },
+    "Quantity Rejected": {
+      "count": 6835,
+      "mean": 22.55859546452085,
+      "min": 1.0,
+      "max": 1135.0,
+      "std": 58.24305614619595,
+      "median": 6.0
+    }
+  },
+  "categorical_columns": {
+    "Date": [
+      {
+        "value": "<<NULL>>",
+        "count": 27
+      },
+      {
+        "value": "2010-10-18 00:00:00",
+        "count": 21
+      },
+      {
+        "value": "2010-11-01 00:00:00",
+        "count": 19
+      },
+      {
+        "value": "2014-07-10 00:00:00",
+        "count": 18
+      },
+      {
+        "value": "2018-12-19 00:00:00",
+        "count": 17
+      }
+    ],
+    "Customer": [
+      {
+        "value": "Dwyer",
+        "count": 4633
+      },
+      {
+        "value": "YSI, Inc",
+        "count": 3604
+      },
+      {
+        "value": "Valco",
+        "count": 888
+      },
+      {
+        "value": "Performance Electronics",
+        "count": 530
+      },
+      {
+        "value": "Big Ass Fans- BAF",
+        "count": 434
+      }
+    ],
+    "Assembly Number": [
+      {
+        "value": "603560LF",
+        "count": 108
+      },
+      {
+        "value": "603504LF",
+        "count": 106
+      },
+      {
+        "value": "605996LF",
+        "count": 103
+      },
+      {
+        "value": "125UVFLEX Power",
+        "count": 99
+      },
+      {
+        "value": "201799-30LF",
+        "count": 99
+      }
+    ],
+    "From Location": [
+      {
+        "value": "From Location",
+        "count": 6997
+      },
+      {
+        "value": "<<NULL>>",
+        "count": 5725
+      },
+      {
+        "value": "Assembly Number",
+        "count": 4381
+      },
+      {
+        "value": "1",
+        "count": 286
+      },
+      {
+        "value": "8",
+        "count": 238
+      }
+    ],
+    "Comments:": [
+      {
+        "value": "<<NULL>>",
+        "count": 17960
+      },
+      {
+        "value": "3",
+        "count": 8
+      },
+      {
+        "value": ".",
+        "count": 4
+      },
+      {
+        "value": ".25",
+        "count": 2
+      },
+      {
+        "value": "++",
+        "count": 2
+      }
+    ],
+    "Quantity Accepted": [
+      {
+        "value": "<<NULL>>",
+        "count": 6711
+      },
+      {
+        "value": "32",
+        "count": 975
+      },
+      {
+        "value": "48",
+        "count": 580
+      },
+      {
+        "value": "73",
+        "count": 389
+      },
+      {
+        "value": "50",
+        "count": 166
+      }
+    ],
+    "Serial Number": [
+      {
+        "value": "<<NULL>>",
+        "count": 18056
+      }
+    ],
+    "Shift": [
+      {
+        "value": "<<NULL>>",
+        "count": 17071
+      },
+      {
+        "value": "1",
+        "count": 985
+      }
+    ]
+  }
+}

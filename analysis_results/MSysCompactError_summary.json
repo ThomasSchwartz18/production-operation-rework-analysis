@@ -1,0 +1,41 @@
+{
+  "table_name": "MSysCompactError",
+  "total_rows": 1,
+  "sampled_rows": 1,
+  "columns": {
+    "ErrorCode": "int64",
+    "ErrorDescription": "object",
+    "ErrorRecid": "object",
+    "ErrorTable": "object"
+  },
+  "numeric_columns": {
+    "ErrorCode": {
+      "count": 1,
+      "mean": -1017.0,
+      "min": -1017.0,
+      "max": -1017.0,
+      "std": 0.0,
+      "median": -1017.0
+    }
+  },
+  "categorical_columns": {
+    "ErrorDescription": [
+      {
+        "value": "Could not find field 'Description'.",
+        "count": 1
+      }
+    ],
+    "ErrorRecid": [
+      {
+        "value": "<<NULL>>",
+        "count": 1
+      }
+    ],
+    "ErrorTable": [
+      {
+        "value": "MSysObjects",
+        "count": 1
+      }
+    ]
+  }
+}

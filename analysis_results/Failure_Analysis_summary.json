@@ -1,0 +1,86 @@
+{
+  "table_name": "Failure Analysis",
+  "total_rows": 218734,
+  "sampled_rows": 50000,
+  "columns": {
+    "ID": "int64",
+    "Reference Designator": "object",
+    "Problem Code": "float64",
+    "Defective Quantity": "float64",
+    "SMT Component": "bool",
+    "Serial Number": "object",
+    "Cause Location": "object"
+  },
+  "numeric_columns": {
+    "ID": {
+      "count": 50000,
+      "mean": 34501.16686,
+      "min": 100.0,
+      "max": 21070103.0,
+      "std": 595248.8825138323,
+      "median": 17643.0
+    },
+    "Problem Code": {
+      "count": 49981,
+      "mean": 7.158540245293211,
+      "min": 0.0,
+      "max": 220.0,
+      "std": 6.5084077240862115,
+      "median": 5.0
+    },
+    "Defective Quantity": {
+      "count": 49987,
+      "mean": 5.522855942545061,
+      "min": 0.0,
+      "max": 3492.0,
+      "std": 38.220503169450424,
+      "median": 1.0
+    }
+  },
+  "categorical_columns": {
+    "Reference Designator": [
+      {
+        "value": "J101",
+        "count": 430
+      },
+      {
+        "value": "U1",
+        "count": 410
+      },
+      {
+        "value": "U2",
+        "count": 351
+      },
+      {
+        "value": "U4",
+        "count": 347
+      },
+      {
+        "value": "U6",
+        "count": 318
+      }
+    ],
+    "SMT Component": [
+      {
+        "value": "True",
+        "count": 49379
+      },
+      {
+        "value": "False",
+        "count": 621
+      }
+    ],
+    "Serial Number": [
+      {
+        "value": "<<NULL>>",
+        "count": 50000
+      }
+    ],
+    "Cause Location": [
+      {
+        "value": "<<NULL>>",
+        "count": 50000
+      }
+    ]
+  }
+}

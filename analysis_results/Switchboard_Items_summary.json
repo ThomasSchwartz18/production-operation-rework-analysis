@@ -1,0 +1,84 @@
+{
+  "table_name": "Switchboard Items",
+  "total_rows": 16,
+  "sampled_rows": 16,
+  "columns": {
+    "SwitchboardID": "int64",
+    "ItemNumber": "int64",
+    "ItemText": "object",
+    "Command": "float64",
+    "Argument": "object"
+  },
+  "numeric_columns": {
+    "SwitchboardID": {
+      "count": 16,
+      "mean": 1.9375,
+      "min": 1.0,
+      "max": 3.0,
+      "std": 0.8267972847076845,
+      "median": 2.0
+    },
+    "ItemNumber": {
+      "count": 16,
+      "mean": 2.1875,
+      "min": 0.0,
+      "max": 5.0,
+      "std": 1.5499495959546556,
+      "median": 2.0
+    },
+    "Command": {
+      "count": 15,
+      "mean": 2.6666666666666665,
+      "min": 0.0,
+      "max": 6.0,
+      "std": 1.7763883459298973,
+      "median": 3.0
+    }
+  },
+  "categorical_columns": {
+    "ItemText": [
+      {
+        "value": "Main Switchboard",
+        "count": 1
+      },
+      {
+        "value": "Add Customer / Assembly",
+        "count": 1
+      },
+      {
+        "value": "Data Entry Form",
+        "count": 1
+      },
+      {
+        "value": "Print Reports",
+        "count": 1
+      },
+      {
+        "value": "View Charts",
+        "count": 1
+      }
+    ],
+    "Argument": [
+      {
+        "value": "1",
+        "count": 2
+      },
+      {
+        "value": "<<NULL>>",
+        "count": 2
+      },
+      {
+        "value": "Nonconformance Data Entry",
+        "count": 1
+      },
+      {
+        "value": "2",
+        "count": 1
+      },
+      {
+        "value": "Default",
+        "count": 1
+      }
+    ]
+  }
+}

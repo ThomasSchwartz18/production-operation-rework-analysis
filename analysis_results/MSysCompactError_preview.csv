@@ -1,0 +1,2 @@
+ErrorCode,ErrorDescription,ErrorRecid,ErrorTable
+-1017,Could not find field 'Description'.,,MSysObjects

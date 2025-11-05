@@ -1,0 +1,938 @@
+{
+  "database": "C:\\Users\\tschwartz\\Desktop\\rework-access\\NonConformance Database-Office2010.accdb",
+  "tables": [
+    {
+      "table_name": "Assembly Number",
+      "total_rows": 2792,
+      "sampled_rows": 2792,
+      "columns": {
+        "ID": "object",
+        "Assembly Number": "object"
+      },
+      "numeric_columns": {},
+      "categorical_columns": {
+        "ID": [
+          {
+            "value": "Dwyer Instruments",
+            "count": 637
+          },
+          {
+            "value": "YSI, Inc",
+            "count": 242
+          },
+          {
+            "value": "Valco",
+            "count": 155
+          },
+          {
+            "value": "RL Drake",
+            "count": 111
+          },
+          {
+            "value": "Performance Electronics",
+            "count": 104
+          }
+        ],
+        "Assembly Number": [
+          {
+            "value": "<<NULL>>",
+            "count": 15
+          },
+          {
+            "value": "ELEC-052789LF",
+            "count": 1
+          },
+          {
+            "value": "ATI-210510-1",
+            "count": 1
+          },
+          {
+            "value": "18-0104-01LF",
+            "count": 1
+          },
+          {
+            "value": "SM7-0864LF",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Board Data",
+      "total_rows": 18056,
+      "sampled_rows": 18056,
+      "columns": {
+        "Date": "datetime64[ns]",
+        "Job Number": "int64",
+        "Customer": "object",
+        "Assembly Number": "object",
+        "From Location": "object",
+        "Total # Reworked": "float64",
+        "Rework Time": "float64",
+        "Comments:": "object",
+        "Quantity Inspected": "float64",
+        "Quantity Rejected": "float64",
+        "Quantity Accepted": "object",
+        "Serial Number": "object",
+        "Shift": "object"
+      },
+      "numeric_columns": {
+        "Job Number": {
+          "count": 18056,
+          "mean": 40503.396045635796,
+          "min": 23.0,
+          "max": 48416666.0,
+          "std": 466409.5786184601,
+          "median": 36034.0
+        },
+        "Total # Reworked": {
+          "count": 13270,
+          "mean": 64.8311981914092,
+          "min": 0.0,
+          "max": 34277.0,
+          "std": 424.090097731031,
+          "median": 16.0
+        },
+        "Rework Time": {
+          "count": 18026,
+          "mean": 1.6577249528458893,
+          "min": 0.0,
+          "max": 214.5,
+          "std": 5.081924251664069,
+          "median": 0.33
+        },
+        "Quantity Inspected": {
+          "count": 14664,
+          "mean": 359.9728587015821,
+          "min": 0.0,
+          "max": 14025.0,
+          "std": 777.9194939286567,
+          "median": 100.0
+        },
+        "Quantity Rejected": {
+          "count": 6835,
+          "mean": 22.55859546452085,
+          "min": 1.0,
+          "max": 1135.0,
+          "std": 58.24305614619595,
+          "median": 6.0
+        }
+      },
+      "categorical_columns": {
+        "Date": [
+          {
+            "value": "<<NULL>>",
+            "count": 27
+          },
+          {
+            "value": "2010-10-18 00:00:00",
+            "count": 21
+          },
+          {
+            "value": "2010-11-01 00:00:00",
+            "count": 19
+          },
+          {
+            "value": "2014-07-10 00:00:00",
+            "count": 18
+          },
+          {
+            "value": "2018-12-19 00:00:00",
+            "count": 17
+          }
+        ],
+        "Customer": [
+          {
+            "value": "Dwyer",
+            "count": 4633
+          },
+          {
+            "value": "YSI, Inc",
+            "count": 3604
+          },
+          {
+            "value": "Valco",
+            "count": 888
+          },
+          {
+            "value": "Performance Electronics",
+            "count": 530
+          },
+          {
+            "value": "Big Ass Fans- BAF",
+            "count": 434
+          }
+        ],
+        "Assembly Number": [
+          {
+            "value": "603560LF",
+            "count": 108
+          },
+          {
+            "value": "603504LF",
+            "count": 106
+          },
+          {
+            "value": "605996LF",
+            "count": 103
+          },
+          {
+            "value": "125UVFLEX Power",
+            "count": 99
+          },
+          {
+            "value": "201799-30LF",
+            "count": 99
+          }
+        ],
+        "From Location": [
+          {
+            "value": "From Location",
+            "count": 6997
+          },
+          {
+            "value": "<<NULL>>",
+            "count": 5725
+          },
+          {
+            "value": "Assembly Number",
+            "count": 4381
+          },
+          {
+            "value": "1",
+            "count": 286
+          },
+          {
+            "value": "8",
+            "count": 238
+          }
+        ],
+        "Comments:": [
+          {
+            "value": "<<NULL>>",
+            "count": 17960
+          },
+          {
+            "value": "3",
+            "count": 8
+          },
+          {
+            "value": ".",
+            "count": 4
+          },
+          {
+            "value": ".25",
+            "count": 2
+          },
+          {
+            "value": "++",
+            "count": 2
+          }
+        ],
+        "Quantity Accepted": [
+          {
+            "value": "<<NULL>>",
+            "count": 6711
+          },
+          {
+            "value": "32",
+            "count": 975
+          },
+          {
+            "value": "48",
+            "count": 580
+          },
+          {
+            "value": "73",
+            "count": 389
+          },
+          {
+            "value": "50",
+            "count": 166
+          }
+        ],
+        "Serial Number": [
+          {
+            "value": "<<NULL>>",
+            "count": 18056
+          }
+        ],
+        "Shift": [
+          {
+            "value": "<<NULL>>",
+            "count": 17071
+          },
+          {
+            "value": "1",
+            "count": 985
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Cause Locations",
+      "total_rows": 13,
+      "sampled_rows": 13,
+      "columns": {
+        "ID": "int64",
+        "Description": "object"
+      },
+      "numeric_columns": {
+        "ID": {
+          "count": 13,
+          "mean": 7.0,
+          "min": 1.0,
+          "max": 13.0,
+          "std": 3.7416573867739413,
+          "median": 7.0
+        }
+      },
+      "categorical_columns": {
+        "Description": [
+          {
+            "value": "SMT",
+            "count": 1
+          },
+          {
+            "value": "HA",
+            "count": 1
+          },
+          {
+            "value": "ERSA",
+            "count": 1
+          },
+          {
+            "value": "WAVE",
+            "count": 1
+          },
+          {
+            "value": "SOLDER",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Customer",
+      "total_rows": 184,
+      "sampled_rows": 184,
+      "columns": {
+        "Customer": "object"
+      },
+      "numeric_columns": {},
+      "categorical_columns": {
+        "Customer": [
+          {
+            "value": "500-501LF",
+            "count": 1
+          },
+          {
+            "value": "ACCENT ENGINEERING",
+            "count": 1
+          },
+          {
+            "value": "Actia",
+            "count": 1
+          },
+          {
+            "value": "ACV Auctions",
+            "count": 1
+          },
+          {
+            "value": "ADB Safegate",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Excel import",
+      "total_rows": 426,
+      "sampled_rows": 426,
+      "columns": {
+        "Job": "float64",
+        "Date1": "datetime64[ns]",
+        "Assy": "object",
+        "Ref Desg": "object",
+        "Prob Code": "float64",
+        "Serial Number": "object",
+        "From Location": "object"
+      },
+      "numeric_columns": {
+        "Job": {
+          "count": 425,
+          "mean": 31969.529411764706,
+          "min": 31864.0,
+          "max": 31994.0,
+          "std": 50.81699304373411,
+          "median": 31994.0
+        },
+        "Prob Code": {
+          "count": 425,
+          "mean": 9.16470588235294,
+          "min": 1.0,
+          "max": 30.0,
+          "std": 9.398431732536118,
+          "median": 6.0
+        }
+      },
+      "categorical_columns": {
+        "Date1": [
+          {
+            "value": "2014-06-19 00:00:00",
+            "count": 71
+          },
+          {
+            "value": "2014-07-07 00:00:00",
+            "count": 56
+          },
+          {
+            "value": "2014-06-23 00:00:00",
+            "count": 48
+          },
+          {
+            "value": "2014-06-24 00:00:00",
+            "count": 44
+          },
+          {
+            "value": "2014-06-11 00:00:00",
+            "count": 43
+          }
+        ],
+        "Assy": [
+          {
+            "value": "3402-101LF",
+            "count": 425
+          },
+          {
+            "value": "<<NULL>>",
+            "count": 1
+          }
+        ],
+        "Ref Desg": [
+          {
+            "value": "C174",
+            "count": 42
+          },
+          {
+            "value": "K1",
+            "count": 34
+          },
+          {
+            "value": "CN31",
+            "count": 22
+          },
+          {
+            "value": "CN7",
+            "count": 17
+          },
+          {
+            "value": "CN3",
+            "count": 11
+          }
+        ],
+        "Serial Number": [
+          {
+            "value": "18140484",
+            "count": 14
+          },
+          {
+            "value": "18140337",
+            "count": 12
+          },
+          {
+            "value": "18140097",
+            "count": 11
+          },
+          {
+            "value": "18140495",
+            "count": 9
+          },
+          {
+            "value": "18140527",
+            "count": 8
+          }
+        ],
+        "From Location": [
+          {
+            "value": "ERSA",
+            "count": 271
+          },
+          {
+            "value": "SMT",
+            "count": 154
+          },
+          {
+            "value": "<<NULL>>",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Failure Analysis",
+      "total_rows": 218734,
+      "sampled_rows": 50000,
+      "columns": {
+        "ID": "int64",
+        "Reference Designator": "object",
+        "Problem Code": "float64",
+        "Defective Quantity": "float64",
+        "SMT Component": "bool",
+        "Serial Number": "object",
+        "Cause Location": "object"
+      },
+      "numeric_columns": {
+        "ID": {
+          "count": 50000,
+          "mean": 34501.16686,
+          "min": 100.0,
+          "max": 21070103.0,
+          "std": 595248.8825138323,
+          "median": 17643.0
+        },
+        "Problem Code": {
+          "count": 49981,
+          "mean": 7.158540245293211,
+          "min": 0.0,
+          "max": 220.0,
+          "std": 6.5084077240862115,
+          "median": 5.0
+        },
+        "Defective Quantity": {
+          "count": 49987,
+          "mean": 5.522855942545061,
+          "min": 0.0,
+          "max": 3492.0,
+          "std": 38.220503169450424,
+          "median": 1.0
+        }
+      },
+      "categorical_columns": {
+        "Reference Designator": [
+          {
+            "value": "J101",
+            "count": 430
+          },
+          {
+            "value": "U1",
+            "count": 410
+          },
+          {
+            "value": "U2",
+            "count": 351
+          },
+          {
+            "value": "U4",
+            "count": 347
+          },
+          {
+            "value": "U6",
+            "count": 318
+          }
+        ],
+        "SMT Component": [
+          {
+            "value": "True",
+            "count": 49379
+          },
+          {
+            "value": "False",
+            "count": 621
+          }
+        ],
+        "Serial Number": [
+          {
+            "value": "<<NULL>>",
+            "count": 50000
+          }
+        ],
+        "Cause Location": [
+          {
+            "value": "<<NULL>>",
+            "count": 50000
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "From Location",
+      "total_rows": 8,
+      "sampled_rows": 8,
+      "columns": {
+        "ID": "int64",
+        "From Location": "object"
+      },
+      "numeric_columns": {
+        "ID": {
+          "count": 8,
+          "mean": 4.5,
+          "min": 1.0,
+          "max": 8.0,
+          "std": 2.29128784747792,
+          "median": 4.5
+        }
+      },
+      "categorical_columns": {
+        "From Location": [
+          {
+            "value": "SMT",
+            "count": 1
+          },
+          {
+            "value": "HA",
+            "count": 1
+          },
+          {
+            "value": "ERSA",
+            "count": 1
+          },
+          {
+            "value": "WAVE",
+            "count": 1
+          },
+          {
+            "value": "SOLDER",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "MSysCompactError",
+      "total_rows": 1,
+      "sampled_rows": 1,
+      "columns": {
+        "ErrorCode": "int64",
+        "ErrorDescription": "object",
+        "ErrorRecid": "object",
+        "ErrorTable": "object"
+      },
+      "numeric_columns": {
+        "ErrorCode": {
+          "count": 1,
+          "mean": -1017.0,
+          "min": -1017.0,
+          "max": -1017.0,
+          "std": 0.0,
+          "median": -1017.0
+        }
+      },
+      "categorical_columns": {
+        "ErrorDescription": [
+          {
+            "value": "Could not find field 'Description'.",
+            "count": 1
+          }
+        ],
+        "ErrorRecid": [
+          {
+            "value": "<<NULL>>",
+            "count": 1
+          }
+        ],
+        "ErrorTable": [
+          {
+            "value": "MSysObjects",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Old Board Data",
+      "total_rows": 296,
+      "sampled_rows": 296,
+      "columns": {
+        "Date": "datetime64[ns]",
+        "Job Number": "int64",
+        "Customer": "object",
+        "Assembly Number": "object",
+        "Total # Reworked": "float64",
+        "Rework Time": "float64",
+        "Comments:": "object",
+        "Quantity Inspected": "float64",
+        "Quantity Rejected": "float64"
+      },
+      "numeric_columns": {
+        "Job Number": {
+          "count": 296,
+          "mean": 13195.472972972973,
+          "min": 1300.0,
+          "max": 122587.0,
+          "std": 7845.718569872865,
+          "median": 12436.0
+        },
+        "Total # Reworked": {
+          "count": 166,
+          "mean": 2891.10843373494,
+          "min": 0.0,
+          "max": 465366.0,
+          "std": 36004.16991061032,
+          "median": 31.0
+        },
+        "Rework Time": {
+          "count": 292,
+          "mean": 3.1968835616438356,
+          "min": 0.0,
+          "max": 49.15,
+          "std": 6.3645962822285265,
+          "median": 0.675
+        },
+        "Quantity Inspected": {
+          "count": 240,
+          "mean": 208.30833333333334,
+          "min": 0.0,
+          "max": 4241.0,
+          "std": 599.4249160074642,
+          "median": 25.5
+        },
+        "Quantity Rejected": {
+          "count": 236,
+          "mean": 12.970338983050848,
+          "min": 0.0,
+          "max": 194.0,
+          "std": 33.56809373250502,
+          "median": 1.0
+        }
+      },
+      "categorical_columns": {
+        "Date": [
+          {
+            "value": "2002-11-19 00:00:00",
+            "count": 8
+          },
+          {
+            "value": "2003-01-21 00:00:00",
+            "count": 7
+          },
+          {
+            "value": "2002-12-27 00:00:00",
+            "count": 7
+          },
+          {
+            "value": "2003-06-26 00:00:00",
+            "count": 7
+          },
+          {
+            "value": "2003-01-29 00:00:00",
+            "count": 6
+          }
+        ],
+        "Customer": [
+          {
+            "value": "<<NULL>>",
+            "count": 292
+          },
+          {
+            "value": "RL Drake",
+            "count": 3
+          },
+          {
+            "value": "Sport Sensors",
+            "count": 1
+          }
+        ],
+        "Assembly Number": [
+          {
+            "value": "D15683100A",
+            "count": 9
+          },
+          {
+            "value": "8100922",
+            "count": 8
+          },
+          {
+            "value": "15942800A",
+            "count": 7
+          },
+          {
+            "value": "STUFF90-2503",
+            "count": 6
+          },
+          {
+            "value": "D15526100A",
+            "count": 6
+          }
+        ],
+        "Comments:": [
+          {
+            "value": "<<NULL>>",
+            "count": 272
+          },
+          {
+            "value": "Part Shortage",
+            "count": 5
+          },
+          {
+            "value": "Parts Shortage",
+            "count": 1
+          },
+          {
+            "value": "Did not run Deviation program",
+            "count": 1
+          },
+          {
+            "value": "Built line #1 then line #3.",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "ProblemCodes",
+      "total_rows": 22,
+      "sampled_rows": 22,
+      "columns": {
+        "CodeID": "int64",
+        "Description": "object"
+      },
+      "numeric_columns": {
+        "CodeID": {
+          "count": 22,
+          "mean": 11.5,
+          "min": 1.0,
+          "max": 22.0,
+          "std": 6.34428877022476,
+          "median": 11.5
+        }
+      },
+      "categorical_columns": {
+        "Description": [
+          {
+            "value": "MISSING COMPONENT",
+            "count": 1
+          },
+          {
+            "value": "PART IN WRONG LOCATION",
+            "count": 1
+          },
+          {
+            "value": "WRONG COMPONENT ",
+            "count": 1
+          },
+          {
+            "value": "DAMAGED COMPONENT",
+            "count": 1
+          },
+          {
+            "value": "PARTS NOT SEATED",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "table_name": "Shift",
+      "total_rows": 2,
+      "sampled_rows": 2,
+      "columns": {
+        "ID": "int64",
+        "Shift": "int64"
+      },
+      "numeric_columns": {
+        "ID": {
+          "count": 2,
+          "mean": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "std": 0.5,
+          "median": 1.5
+        },
+        "Shift": {
+          "count": 2,
+          "mean": 1.5,
+          "min": 1.0,
+          "max": 2.0,
+          "std": 0.5,
+          "median": 1.5
+        }
+      },
+      "categorical_columns": {}
+    },
+    {
+      "table_name": "Switchboard Items",
+      "total_rows": 16,
+      "sampled_rows": 16,
+      "columns": {
+        "SwitchboardID": "int64",
+        "ItemNumber": "int64",
+        "ItemText": "object",
+        "Command": "float64",
+        "Argument": "object"
+      },
+      "numeric_columns": {
+        "SwitchboardID": {
+          "count": 16,
+          "mean": 1.9375,
+          "min": 1.0,
+          "max": 3.0,
+          "std": 0.8267972847076845,
+          "median": 2.0
+        },
+        "ItemNumber": {
+          "count": 16,
+          "mean": 2.1875,
+          "min": 0.0,
+          "max": 5.0,
+          "std": 1.5499495959546556,
+          "median": 2.0
+        },
+        "Command": {
+          "count": 15,
+          "mean": 2.6666666666666665,
+          "min": 0.0,
+          "max": 6.0,
+          "std": 1.7763883459298973,
+          "median": 3.0
+        }
+      },
+      "categorical_columns": {
+        "ItemText": [
+          {
+            "value": "Main Switchboard",
+            "count": 1
+          },
+          {
+            "value": "Add Customer / Assembly",
+            "count": 1
+          },
+          {
+            "value": "Data Entry Form",
+            "count": 1
+          },
+          {
+            "value": "Print Reports",
+            "count": 1
+          },
+          {
+            "value": "View Charts",
+            "count": 1
+          }
+        ],
+        "Argument": [
+          {
+            "value": "1",
+            "count": 2
+          },
+          {
+            "value": "<<NULL>>",
+            "count": 2
+          },
+          {
+            "value": "Nonconformance Data Entry",
+            "count": 1
+          },
+          {
+            "value": "2",
+            "count": 1
+          },
+          {
+            "value": "Default",
+            "count": 1
+          }
+        ]
+      }
+    }
+  ]
+}

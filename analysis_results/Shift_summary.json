@@ -1,0 +1,28 @@
+{
+  "table_name": "Shift",
+  "total_rows": 2,
+  "sampled_rows": 2,
+  "columns": {
+    "ID": "int64",
+    "Shift": "int64"
+  },
+  "numeric_columns": {
+    "ID": {
+      "count": 2,
+      "mean": 1.5,
+      "min": 1.0,
+      "max": 2.0,
+      "std": 0.5,
+      "median": 1.5
+    },
+    "Shift": {
+      "count": 2,
+      "mean": 1.5,
+      "min": 1.0,
+      "max": 2.0,
+      "std": 0.5,
+      "median": 1.5
+    }
+  },
+  "categorical_columns": {}
+}

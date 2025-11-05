@@ -1,0 +1,56 @@
+{
+  "table_name": "Assembly Number",
+  "total_rows": 2792,
+  "sampled_rows": 2792,
+  "columns": {
+    "ID": "object",
+    "Assembly Number": "object"
+  },
+  "numeric_columns": {},
+  "categorical_columns": {
+    "ID": [
+      {
+        "value": "Dwyer Instruments",
+        "count": 637
+      },
+      {
+        "value": "YSI, Inc",
+        "count": 242
+      },
+      {
+        "value": "Valco",
+        "count": 155
+      },
+      {
+        "value": "RL Drake",
+        "count": 111
+      },
+      {
+        "value": "Performance Electronics",
+        "count": 104
+      }
+    ],
+    "Assembly Number": [
+      {
+        "value": "<<NULL>>",
+        "count": 15
+      },
+      {
+        "value": "ELEC-052789LF",
+        "count": 1
+      },
+      {
+        "value": "ATI-210510-1",
+        "count": 1
+      },
+      {
+        "value": "18-0104-01LF",
+        "count": 1
+      },
+      {
+        "value": "SM7-0864LF",
+        "count": 1
+      }
+    ]
+  }
+}

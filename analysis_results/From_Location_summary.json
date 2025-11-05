@@ -1,0 +1,43 @@
+{
+  "table_name": "From Location",
+  "total_rows": 8,
+  "sampled_rows": 8,
+  "columns": {
+    "ID": "int64",
+    "From Location": "object"
+  },
+  "numeric_columns": {
+    "ID": {
+      "count": 8,
+      "mean": 4.5,
+      "min": 1.0,
+      "max": 8.0,
+      "std": 2.29128784747792,
+      "median": 4.5
+    }
+  },
+  "categorical_columns": {
+    "From Location": [
+      {
+        "value": "SMT",
+        "count": 1
+      },
+      {
+        "value": "HA",
+        "count": 1
+      },
+      {
+        "value": "ERSA",
+        "count": 1
+      },
+      {
+        "value": "WAVE",
+        "count": 1
+      },
+      {
+        "value": "SOLDER",
+        "count": 1
+      }
+    ]
+  }
+}
